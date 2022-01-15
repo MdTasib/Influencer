@@ -109,6 +109,7 @@ body {
 
 .banner-img-box img {
 	animation: blank 1.5s infinite;
+	width: 80%;
 }
 
 @keyframes blank {
