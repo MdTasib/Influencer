@@ -22,6 +22,7 @@ body {
 	border-radius: 20px;
 	transition: all 0.3s;
 	border: 1px solid transparent;
+	cursor: pointer;
 }
 
 .btn:hover {
@@ -185,8 +186,30 @@ body {
 .show-all i {
 	margin-left: 10px;
 }
+/* *****************   contact area css ****************** */
+.contact {
+	text-align: center;
+}
 
-/* *****************   Popular Collection area css ****************** */
+.contact-form {
+	margin-bottom: 40px;
+}
+
+.contact-form input,
+textarea {
+	width: 90%;
+	border: 0;
+	border-bottom: 2px solid black;
+	padding: 15px 0px;
+	outline: 0;
+	margin: 10px 0px;
+}
+
+.contact-form textarea {
+	width: 95%;
+}
+
+/* *****************   footer area css ****************** */
 .footer {
 	text-align: center;
 	background-color: #000035;

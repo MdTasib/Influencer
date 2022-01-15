@@ -1,0 +1,27 @@
+/* .grid--cols-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid--cols-3 {
+	grid-template-columns: repeat(3, 1fr);
+} */
+
+@media (max-width: 1080px) {
+	.grid--cols-3 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 780px) {
+	.grid--cols-2,
+	.grid--cols-3 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.grid--cols-6 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.logo {
+		margin: 20px;
+	}
+}
