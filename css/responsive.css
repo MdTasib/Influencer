@@ -18,6 +18,10 @@
 		line-height: 30px;
 	}
 
+	.banner-text-box {
+		text-align: center;
+	}
+
 	.banner-img-box {
 		padding: 20px 0px;
 	}
